@@ -25,6 +25,7 @@ dato_por_letra = {
     'C': 'Control',
 }
 
+
 """
 Plantilla de mascotas:
     mascota = [
