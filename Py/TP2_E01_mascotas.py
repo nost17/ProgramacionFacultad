@@ -1,5 +1,5 @@
 import os
-Mascotas = [
+Mascotas: list[list] = [
     ["Fido", "P", 5, 12.5, "S",
         [12345678, "Juan Perez", "555-1234", "Calle Falsa 123"]],
     ["Miau", "G", 3, 4.2, "C",
@@ -74,7 +74,7 @@ def validarFlotante(mensaje: str) -> float:
         mensaje (str): Mensaje que se mostrar al usuario
 
     """
-    numero = 0
+    numero: float = 0
     while True:
         try:
             numero = float(input(mensaje))
