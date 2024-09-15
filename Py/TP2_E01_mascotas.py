@@ -16,7 +16,7 @@ Mascotas: list[list] = [
         [55667788, "Sofia Castro", "545-2227", "Avenida del valle 200"]]
 ]
 
-dato_por_letra = {
+dato_por_letra: dict[str, str] = {
     'P': 'Perro',
     'G': 'Gato',
     'H': 'Hamster',
